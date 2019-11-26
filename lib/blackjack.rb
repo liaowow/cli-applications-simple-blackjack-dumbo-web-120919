@@ -33,7 +33,7 @@ def hit?(num)
   get_user_input
   
   if get_user_input == 'h'
-    return deal_card += num
+    return deal_card + num
   elsif get_user_input == 's'
     return num
   else
